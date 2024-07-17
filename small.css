@@ -1,0 +1,11 @@
+@media (max-width: 750px) {
+    .CarCard{
+        width: 80px;
+    }
+    .m3{
+        display: none;
+    }
+    .x6{
+        display: none;
+    }
+}

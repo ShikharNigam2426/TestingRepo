@@ -1,0 +1,169 @@
+::-webkit-scrollbar{
+    display: none !important;;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.main-p{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+#main{
+    position: fixed !important;
+    width: 100%; 
+    height: 100vh;
+    background-color: black;
+    overflow: scroll;
+}
+
+
+#top{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(0, 0, 0);
+    z-index: 9;
+    overflow: hidden;
+}
+
+#main img{
+    height: 100%;
+    object-fit: contain;
+}
+
+#center-div{
+    width: 100%;
+    height: 100%;
+    translate: none;
+    rotate: none;
+    display: flex;
+    flex-direction: column;
+    scale: none;
+    transform: translate3d(0px, 0px, 100px);
+    justify-content: center;
+}
+
+#top-h1{
+    position: absolute;
+    bottom: -9%;
+    left: 50%;
+    right: auto;
+}
+
+#bottom-h1{
+    position: absolute;
+    top: -8%;
+    left: 50%;
+    right: auto;
+}
+
+#bottom{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+
+/* center card CSS*/
+
+
+
+/* center k ander k card css  */
+
+#center{
+    background: url('./Assets/cards/bmwHeadlight.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: scroll;
+}
+
+.CarCard{
+    width: 10vw;
+    height: 60vh;
+    border-radius: 65px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    transition: all ease 0.7s;
+}
+
+.cards{
+    height: 100vh;
+}
+
+.CarCard:hover{
+    width: 45vw;
+    height: 70vh;
+    border-radius: 25px;
+    .onlyOnHover{
+        transition: all ease 0.3s;
+        display: block;
+    }
+}
+
+.onlyOnHover{
+    color: rgba(255, 255, 255, 0.505);
+    display: none;
+}
+
+.logo{
+    width: 100%;
+    height: 67px !important;
+    margin-bottom: 16px;
+}
+
+/* card k background ki imgaes  */
+
+.m3{
+    background: url('./Assets/cards/m3.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.m5{
+    background: url('./Assets/cards/m5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.x6{
+    background: url('./Assets/cards/x6.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.GTsix{
+    background: url('./Assets/cards/m440i.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.m2{
+    background: url('./Assets/cards/m2.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
